@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/ico" href="static\ico.png"/>
+  <title>Saran Pannasuriyaporn's personal website</title>
+
+  <!-- Font CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!--slick slider CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- My Own CSS -->
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+          Saran Pannasuriyaporn
+        </span>
+      </a>
+      <!-- toggle button for mobile nav (to hide Portfolio, Award, and Education)-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#award&honor">Award & Honor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificate">Certificate</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  
+  <div class="container mt-5">
+    <!-- Introduction -->
+    <div class="row d-flex align-items-center border p-3">
+      <div class="col-lg-4 px-5">
+        <div class="container-fluid py-3">
+          <img src="static\me.png" alt="Profile Image" class="img-fluid rounded-circle" style="max-width: 200px; max-height: 200px;">
+        </div>
+        <div class="container-fluid d-block mx-auto">
+          <a href="https://github.com/wallik2"><img src="static\github_icon.png" class="w-32" alt="Github" width="32" height="32"></a>
+          <a href="https://www.linkedin.com/in/saran-pannasuriyaporn-1104071ab/"><img src="static\linkedin_icon.png" alt="Linkedin" width="32" height="32"></a>
+          <a href="https://www.youtube.com/@wallik8603"><img src="static\youtube_icon.png" alt="Youtube" width="32" height="32"></a>
+          <a href="https://www.facebook.com/datawallik"><img src="static\facebook_icon.png" alt="Youtube" width="32" height="32"></a>
+  
+        </div>
+      </div>
+
+      <div class="col-lg-8 px-5">
+        <h1 class="mt-4">Saran Pannasuriyaporn</h1>
+  
+        <p class="lead">
+          Hi, I'm Run, and I am passionate about the field of data science. I have progressed through my studies and work in this field, and am always seeking opportunities to learn and grow. 
+
+      As a data scientist with a focus on natural language processing, I have successfully developed and launched several machine learning and NLP products through web applications. My priority is to ensure that the models I create are transparent to users and easily understood through mathematics.
+
+      In addition to my professional pursuits, I also run a YouTube channel called Wallik where I share my learning journey and practical tips for data scientists and software engineers. 
+      Additionally, I run a Facebook page called DataWallik, which aims to present machine learning knowledge in an easily understandable way.
+
+      I am passionate about using automation and Python to streamline processes and reduce the potential for errors. Currently, I am working on developing a high-level deep learning framework called Dipple.
+        </p>
+      </div>
+    </div>
+    <h5 class="mt-3 text-end"><i class="bi bi-envelope"></i> Contact me : runpan4work@gmail.com <i class="bi bi-envelope"></i></h5>
+  </div>
+  
+  <!--Portfolio Slider -->
+  <section id="portfolio" class="bg-light my-5 py-5">
+    <div class="container">
+      <div class="text-center">
+        <h1>Portfolio <i class="bi bi-book" style="font-size: 2rem; color: cornflowerblue;"></i> </h1>
+        
+        <p class="lead text-muted">Last updated 25 Dec 2022</p>
+      </div>
+      <div class="row justify-content-center slider3">
+        <div class="col-md-12 d-flex justify-content-center">
+
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\dipple.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dipple</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><b>Deep</b> but sim<b>ple</b> to build</h6>
+              <p class="card-text">
+                a Python package that simplifies the process of constructing neural network architectures. 
+                It is especially useful for beginner data scientists who want to create logistic, shallow, 
+                or deep L-layer neural networks with just a few lines of code. The author of Dipple developed 
+                the entire neural network architecture from the ground up using NumPy, a linear algebra library.<br><br>
+              </p>
+              <a href="https://github.com/wallik2/dipple" class="btn btn-secondary stretched-link">Read More <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\hobot.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hobot Cardiologist</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Chat with Cardiologist through a web application</h6>
+              <p class="card-text">
+                Hobot is a cardiologist trained to detect early signs of heart failure in people with a history 
+                of heart failure and left ventricular systolic dysfunction. Hobot uses a Random Forest Classifier 
+                with 89 trees and 12 features (eg. CPK enzyme) to predict the probability of heart failure. 
+                The web application featuring Hobot includes a museum section displaying the training dataset 
+                and providing educational insights through statistical analysis.
+              </p>
+              <a href="https://wallik2.github.io/heart-failure-detector/" class="btn btn-secondary stretched-link">Read More</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\commuji.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Commuji</h5>
+              <h6 class="card-subtitle mb-2 text-muted">6 Emoji Suggestion for English text</h6>
+              <p class="card-text">
+                Need help finding the perfect emoji for your English text? Try COMMUJI,
+                Our tool uses advanced NLP technology, specifically BERT-base-uncased, 
+                to suggest the most appropriate emojis 
+                with a weighted F1 score of 0.9247. Say goodbye to confusing your friends or colleagues 
+                with the wrong emoji.<br><br><br><br>
+                
+              </p>
+              <a href="https://github.com/wallik2/Predict-Emoji-with-BERT" class="btn btn-secondary stretched-link">Read More <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\sunrima.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Sunrima</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Forecasting 'ครีมกันแดด' popularity using SARIMA</h6>
+              <p class="card-text">
+                The goal of this project is to forecast consumer interest in sunscreen in Thailand 
+                by analyzing Google search data for "ครีมกันแดด", 
+                The research used various models and found that that the SARIMA(0,1,2)(0,1,1)(12), which we have named Sunrima, was the best fit based on the AIC criterion. 
+                This information can be used by companies selling sun protection to determine the best time 
+                to launch targeted advertisements and marketing campaigns for sunscreen to increase 
+                product sales and revenue.
+                
+              </p>
+              <a href="https://github.com/wallik2/MonthlyForecast_Sunscreen-Popularity" class="btn btn-secondary stretched-link">Read More <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\careermatcher.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">CareerMatcher</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Find Your Perfect Job Based on Your Unique Characteristics from JobsDB</h6>
+              <p class="card-text">
+                CareerMatcher helps you find the best job for your unique characteristics by using 
+                BeautifulSoup to scrape relevant job listings based on your job title or company name from JobsDB. 
+                Simply input your characteristics, such as strong communication skills and Python and Tableau, and CareerMatcher will use TFIDF vectorization to rank the jobs that best match 
+                your profile. With CareerMatcher, you can easily find the job that aligns with your 
+                strengths and values.
+                
+              </p>
+              <a href="https://github.com/wallik2/JobsDB-WebScraper" class="btn btn-secondary stretched-link">Read More <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\astarmaze.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Custom Maze Solver</h5>
+              <h6 class="card-subtitle mb-2 text-muted">By A-star Algorithm</h6>
+              <p class="card-text">
+                When traveling, you may have limited space in your bag for food. As a healthy individual, you need to ensure that the food you choose has sufficient dietary fiber. Some high-fiber foods may contain high amounts of sugar, which can be harmful. To maximize dietary fiber benefits and minimize sugar's negative effects, it is important to carefully select your food. This can be time-consuming, but our fast and smart food picker, based on genetic algorithms, can help you choose the best options based on your criteria.
+                
+              </p>
+              <a href="https://github.com/wallik2/All_Search_Algorithm_Game" class="btn btn-secondary stretched-link">Read More <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\geneticfood.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Fast & Smart Food Picker</h5>
+              <h6 class="card-subtitle mb-2 text-muted">By Genetic Algorithm</h6>
+              <p class="card-text">
+                When traveling, you may have limited space in your bag for food. 
+                As a healthy individual, you need to ensure that the food you choose 
+                has sufficient dietary fiber. Some high-fiber foods may contain 
+                high amounts of sugar, which can be harmful. To maximize dietary 
+                fiber benefits and minimize sugar's negative effects, 
+                it is important to carefully select your food. This can be time-consuming, 
+                but our fast and smart food picker, based on genetic algorithms, 
+                can help you choose the best options based on your criteria.
+                
+              </p>
+              <a href="https://github.com/wallik2/Optimize_using_genetic_algorithm" class="btn btn-secondary stretched-link">Read More <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\bubbleteafactorial.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Best Signature Bubble Tea Menu Options</h5>
+              <h6 class="card-subtitle mb-2 text-muted">By 2^3 Full Factorial Design</h6>
+              <p class="card-text">
+                We are opening a new bubble tea shop and have three options on our menu: 
+                milk tea, green tea, and the choice to add whip cream or not. 
+                We also have the option to add brown sugar or not. We asked our friends to rate 
+                the tastiness and appearance of each combination of these options via Google form, 
+                but the ratings are varied. To understand the impact of each factor and potentially 
+                the interaction between factors, we are using a 2^3 full factorial design. <br><br>
+                
+              </p>
+              <a href="https://github.com/wallik2/BubbleTea-2k_Factorial_Design" class="btn btn-secondary stretched-link">Read More <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="portfolio\static\youtubemusicgui.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Simulation of Youtube Music GUI</h5>
+              <h6 class="card-subtitle mb-2 text-muted">YouTube Music PC App by TKinter and sqlite3</h6>
+              <p class="card-text">
+                As a parent, you may want to restrict certain songs to avoid inappropriate content 
+                for your child. With the YouTube Music PC App, you can add metadata for approved songs 
+                to a SQL database. The app's GUI, created using the Tkinter package, will only display 
+                the songs that have been approved by the parent. The app also stores song metadata in a 
+                SQL database using the sqlite3 package <br><br><br>
+                
+              </p>
+              <a href="https://github.com/wallik2/YouTubeMusic-GUI" class="btn btn-secondary stretched-link">Read More <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="my-5">
+    <div class="container">
+      <div class="text-center">
+        <h1>Education <i class="bi bi-building" style="font-size: 2rem; color: cornflowerblue;"></i></h1>
+        <p class="lead text-muted">Last updated 25 Dec 2022</p>
+      </div>
+      <div class="row justify-content-center slider1">
+        <div class="col-md-12 d-flex justify-content-center">
+
+          <div class="card" style="width: 52rem;">
+            <img class="card-img-top" src="education\bsc\bachelormu.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">
+                B.Sc Industrial Mathematics & Data Science program (2019-2023)
+                </h5>
+              <h6>GPAX : 3.93</h6>
+              <p class="card-text">
+                <u>Highlighted Courses</u> : Statistical Data Analysis, Database Management, Operations Research, Simulation Modelling, 
+                Calculus of Several Variables, Advanced Calculus, Operations Research, Numerical Analysis, Data Structure in Mathematics,
+                Linear Algebra, Supply Chain Modelling & Optimization, Machine Learning, Big Data Analytics,
+                Statistical Modelling, Stochastic Processes & Applications, Experimental Design Analysis, 
+                Data Mining, Mathematics For AI, Mathematical Statistics, Intro to Mathematical Software (MATLAB), Network Optimization
+              </p>
+              <a href="education\bsc\transcript.pdf" class="btn btn-primary stretched-link">View my student transcript</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="experience" class="bg-light my-5 py-5">
+    <div class="container">
+      <div class="text-center">
+        <h1>Experiences <i class="bi bi-person-workspace" style="font-size: 2rem; color: cornflowerblue;"></i> </h1>
+        
+        <p class="lead text-muted">Last updated 25 Dec 2022</p>
+      </div>
+      <div class="row justify-content-center slider3">
+        <div class="col-md-12 d-flex justify-content-center">
+
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="experience\oic.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Natural Language Engineer</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Freelance : Aug 2022 - Present</h6>
+              <p class="card-text">
+                As a main leader in the development of a natural language processing (NLP) model 
+                for fraud detection in the insurance industry, my work involves using advanced 
+                natural language processing techniques to identify fraudulent interactions between agents and customers.
+                My works also involves interacting with API servers to ensure that the model is integrated into the broader system and can be accessed as needed
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="experience\tda.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Data Analyst</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Part-time : Mar 2022 - Present</h6>
+              <p class="card-text">
+                As a data analyst at TDA, my work involves an automation system that transforms 
+                raw data into clear and concise data analysis reports and dashboards. I carefully 
+                select the most relevant and crucial plots to present to our audiences. 
+                This system saves time and resources while producing high-quality results. <br><br>
+              </p>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card h-100" style="width: 26rem;">
+            <img class="card-img-top" src="experience\sidata.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Data Scientist / AI Engineer</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Intern : Jun 2021 - Sep 2022</h6>
+              <p class="card-text">
+                As a Data Science Intern, I lead discussions on the use of natural language processing 
+                (NLP) models for sepsis detection and predicting pain levels in cancer patients. 
+                I analyze the performance of traditional and machine learning approaches and recommend 
+                which model to implement in the future. I also extract data from doctor prescriptions 
+                using regular expressions and turn it into usable features for NLP tasks.
+                
+              </p>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="award&honor" class="my-5">
+    <div class="container">
+      <div class="text-center">
+        <h1>Awards & Honor <i class="bi bi-award" style="font-size: 2rem; color: cornflowerblue;"></i></h1>
+        <p class="lead text-muted">Last updated 25 Dec 2022</p>
+      </div>
+      <div class="row justify-content-center slider3">
+        <div class="col-md-6">
+
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="award\static\wanchem.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">
+                Won the Popular vote of TMLCC</h5>
+              <h6>Issued by TMLCC · Oct 2021</h6>
+              <p class="card-text">
+                <ul>
+                  Attended and Won the most popular vote on TMLCC at Ranked 26 out of 250 Teams based on LMAE loss
+              </ul>
+                <ul>
+                  Predict the Gas Adsorption Ability of Metal-Organic Frameworks (MOF) using Machine Learning with LMAE loss : 1.245 
+                </ul>
+              </p>
+              <a href="https://devpost.com/software/wanchem" class="btn btn-secondary stretched-link">Read More</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="award\static\cpscholarship.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">
+                Received 3-year CP Scholarship</h5>
+              <h6>Issued by เครือเจริญโภคภัณฑ์ (CP) · Jun 2020</h6>
+              <p class="card-text">
+                <ul>
+                  Launch Online Activities to optimizing productivity by applying Physical Therapy Knowledge, 
+                  held on Kanjanapisek Witthayalai Nakornphathom School. <br><br><br><br>
+                </ul>
+              </p>
+              <a href="https://www.facebook.com/profile.php?id=100083313284144" class="btn btn-secondary stretched-link">Read More</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificate" class="bg-light my-5 py-5">
+    <div class="container">
+      <div class="text-center">
+        <h1>Certificate <i class="bi bi-patch-check" style="font-size: 2rem; color: cornflowerblue;"></i></h1>
+        <p class="lead text-muted">Last updated 25 Dec 2022</p>
+      </div>
+      <div class="row justify-content-center slider3">
+        <div class="col-md-6">
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="certificate\cv.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">
+                Kaggle - Computer Vision</h5>
+              <h6>Issued May 2021</h6>
+              <p class="card-text">
+                
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="certificate\feature_engineering.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">
+                Kaggle - Feature Engineering</h5>
+              <h6>Issued May 2021</h6>
+              <p class="card-text">
+                
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="certificate\intro_dl.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">
+                Kaggle - Intro to Deep Learning</h5>
+              <h6>Issued Apr 2021</h6>
+              <p class="card-text">
+                
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="certificate\udemy_num_method.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">
+                Udemy - Programming Numerical Methods in Python</h5>
+              <h6>Issued Apr 2021</h6>
+              <p class="card-text">
+                
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" style="width: 26rem;">
+            <img class="card-img-top" src="certificate\intermediate_ml_kaggle.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">
+                Kaggle - Intermediate Machine Learning</h5>
+              <h6>Issued Mar 2021</h6>
+              <p class="card-text">
+                
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="bg-secondary mt-5 pt-5">
+    <div class="container">
+      <div class="text">
+
+      </div>
+    </div>
+  </section>
+    <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <!--jQUERY JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!-- My own JavaScript-->
+  <script type="text/javascript">
+        $('.slider3').slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+      nextArrow: '<button type="button" class="slick-next">Next</button>',
+      responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+  </script>
+  <script type="text/javascript">
+      $('.slider1').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+    nextArrow: '<button type="button" class="slick-next">Next</button>',
+    responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+  </script>
+  </body>
+  </html>
